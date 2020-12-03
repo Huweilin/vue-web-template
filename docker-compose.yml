@@ -1,0 +1,10 @@
+version: "2"
+services:
+  web:
+    container_name: init_project
+    image: docker-registry.ywqian.com:5000/suancloud/nginx4angular:latest
+    restart: always
+    ports:
+      - 8200:80
+    volumes:
+      - ./dist:/usr/share/nginx/html
