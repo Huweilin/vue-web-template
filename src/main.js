@@ -8,6 +8,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css'; // ele 样式
 
 import './assets/css/index.less' // 公共样式文件
+import './assets/font-awesome-4.7.0/css/font-awesome.min.css'  //图标库
 
 import PublicComponents from '@/components'
 import tools from './utils/js/tools.js'   // 工具函数

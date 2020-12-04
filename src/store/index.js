@@ -9,7 +9,7 @@ function initState () {
   return {
     isLogin: true,
     user: {
-      username: '',
+      username: 'test',
       id: '',
     },
     token: '',

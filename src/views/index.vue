@@ -4,6 +4,7 @@
       <custom-nav :isNavOpen="isNavOpen"></custom-nav>
     </div>
     <div class="container">
+      <custom-header @navSwitch="navSwitch"></custom-header>
       <div class="main">
         <div class="nav-active-box">
           <transition name="fade" mode="out-in">
